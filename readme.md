@@ -1,21 +1,29 @@
-# First Spartan Java Project
-- **main**
+# Spartan Java Work
 
-The *main* method is doesn't have a large amount of code, 
-to keep it simple when testing
+### BubbleSort
 
-Contains an integer variable, initialised with 10.
+This is a program that takes an array of numbers, and 
+sorts it in order. It works by swapping each consecutive pair of 
+numbers (so in the array {1,5,3}, 1 and 5 are swapped, then 1 and 
+3 are swapped) until the list is ordered.
 
-- String greeting
+### Palindrome
 
-Real bulk of the code. It contains a String variable, 
-initialised with "greetings". Also, the method has the int
-variable as a parameter.
+This is a program that has a few methods
+- One method converts all characters to lower case, so it can be valid
+to test as a palindrome.
+- The second method checks if an inputted word is indeed a 
+palindrome ("dad" is a palindrome, "dab" isn't).
+- The third method takes a string, and returns the longest palindrome
+inside it ("the repaper is poop": repaper would be returned, not 
+poop).
 
-Multiple conditions are used to check the int variable,
-known as TimeOfDay, and output different message values.
-Once done, the message variable is returned, and is used in
-the main method
+### Fibonacci
+This is a program that takes a number as an input, which is the
+position to find, and returns an output of the fibonacci sequence
+up until that position (position 5 returns 5)
 
+This is done __recursively.__ The method calls itself until it
+reaches a base case.
 
 
