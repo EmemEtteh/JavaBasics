@@ -26,4 +26,25 @@ public class BubbleSortTests {
 
         Assertions.assertArrayEquals(expectedArray, BubbleSort.sortThisArray(testArray));
     }
+
+    @Test
+    @DisplayName("check that an array with one character still displays that character")
+    void checkArrayLengthOneSorts() {
+        int[] expectedArray = new int[] {1};
+        int[] testArray = new int[] {1};
+
+        Assertions.assertArrayEquals(expectedArray, BubbleSort.sortThisArray(testArray));
+    }
+
+
+    @Test
+    @DisplayName("check that empty arrays return blank array")
+    void checkEmptyArrayReturnsBlankArray() {
+        int[] expectedArray = new int[] {};
+        int[] testArray = new int[] {};
+
+        Assertions.assertArrayEquals(expectedArray, BubbleSort.sortThisArray(testArray));
+    }
+
+
 }

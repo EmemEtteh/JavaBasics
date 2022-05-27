@@ -52,7 +52,7 @@ public class PalindromeTests {
     }
 
     @Test
-    @DisplayName("check that the palindrones under 6 letters aren't returned")
+    @DisplayName("check that the palindromes under 6 letters aren't returned")
     void checkPalindromesUnderSixLettersAreNotReturned() {
         //Assertions.assertEquals(true, Palindrome.isPalindromeChecker("pullup"));
         ArrayList<String> expectedOutput = new ArrayList<>();
