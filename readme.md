@@ -26,4 +26,7 @@ up until that position (position 5 returns 5)
 This is done __recursively.__ The method calls itself until it
 reaches a base case.
 
+There is another method which prints the sequence  after giving it the
+position. Uses the method getPosition for this.
+
 
